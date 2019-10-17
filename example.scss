@@ -1,5 +1,8 @@
 @import "variable";
 @import "functions";
+
+
+
 body {
     font: 100% $font-body;
     color: $font-color;
@@ -74,8 +77,6 @@ footer {
 
 @include warning;
 
-a{
-    .red:active {
-        @include background;
-    }
-}
+       
+    
+
